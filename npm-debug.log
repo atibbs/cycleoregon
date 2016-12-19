@@ -1,0 +1,153 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'grunt', '--save-dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json cycleoregon@1.0.0 No description
+5 warn package.json cycleoregon@1.0.0 No repository field.
+6 warn package.json cycleoregon@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'grunt', null ]
+9 verbose cache add name=undefined spec="grunt" args=["grunt",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'grunt',
+10 verbose parsed url   path: 'grunt',
+10 verbose parsed url   href: 'grunt' }
+11 silly lockFile 20ff3fd8-grunt grunt
+12 verbose lock grunt /Users/andrewtibbs/.npm/20ff3fd8-grunt.lock
+13 silly lockFile 20ff3fd8-grunt grunt
+14 silly lockFile 20ff3fd8-grunt grunt
+15 verbose addNamed [ 'grunt', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 55f1ff24-grunt grunt@
+18 verbose lock grunt@ /Users/andrewtibbs/.npm/55f1ff24-grunt.lock
+19 silly addNameRange { name: 'grunt', range: '*', hasData: false }
+20 verbose request where is /grunt
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id a797b6d84df380b8
+23 verbose url raw /grunt
+24 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+25 verbose url resolved https://registry.npmjs.org/grunt
+26 verbose request where is https://registry.npmjs.org/grunt
+27 info trying registry request attempt 1 at 14:57:00
+28 verbose etag "6BI65JMHTBIUXLQS1MJKREBLR"
+29 http GET https://registry.npmjs.org/grunt
+30 http 200 https://registry.npmjs.org/grunt
+31 silly registry.get cb [ 200,
+31 silly registry.get   { server: 'nginx/1.10.1',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'last-modified': 'Sat, 17 Dec 2016 15:52:15 GMT',
+31 silly registry.get     etag: 'W/"58555f2f-1883c"',
+31 silly registry.get     'content-encoding': 'gzip',
+31 silly registry.get     'cache-control': 'max-age=300',
+31 silly registry.get     'content-length': '10931',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     date: 'Sat, 17 Dec 2016 22:57:00 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '62',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-sjc3134-SJC',
+31 silly registry.get     'x-cache': 'HIT',
+31 silly registry.get     'x-cache-hits': '1',
+31 silly registry.get     'x-timer': 'S1482015420.581237,VS0,VE0',
+31 silly registry.get     vary: 'Accept-Encoding' } ]
+32 silly addNameRange number 2 { name: 'grunt', range: '*', hasData: true }
+33 silly addNameRange versions [ 'grunt',
+33 silly addNameRange   [ '0.1.0',
+33 silly addNameRange     '0.1.1',
+33 silly addNameRange     '0.1.2',
+33 silly addNameRange     '0.2.0',
+33 silly addNameRange     '0.2.1',
+33 silly addNameRange     '0.2.2',
+33 silly addNameRange     '0.2.3',
+33 silly addNameRange     '0.2.4',
+33 silly addNameRange     '0.2.5',
+33 silly addNameRange     '0.2.6',
+33 silly addNameRange     '0.2.7',
+33 silly addNameRange     '0.2.8',
+33 silly addNameRange     '0.2.9',
+33 silly addNameRange     '0.2.10',
+33 silly addNameRange     '0.2.11',
+33 silly addNameRange     '0.2.12',
+33 silly addNameRange     '0.2.13',
+33 silly addNameRange     '0.2.14',
+33 silly addNameRange     '0.2.15',
+33 silly addNameRange     '0.3.0',
+33 silly addNameRange     '0.3.1',
+33 silly addNameRange     '0.3.2',
+33 silly addNameRange     '0.3.3',
+33 silly addNameRange     '0.3.4',
+33 silly addNameRange     '0.3.5',
+33 silly addNameRange     '0.3.6',
+33 silly addNameRange     '0.3.7',
+33 silly addNameRange     '0.3.8',
+33 silly addNameRange     '0.3.9',
+33 silly addNameRange     '0.3.10',
+33 silly addNameRange     '0.3.11',
+33 silly addNameRange     '0.3.12',
+33 silly addNameRange     '0.3.13',
+33 silly addNameRange     '0.3.14',
+33 silly addNameRange     '0.3.15',
+33 silly addNameRange     '0.3.16',
+33 silly addNameRange     '0.3.17',
+33 silly addNameRange     '0.4.0',
+33 silly addNameRange     '0.4.1',
+33 silly addNameRange     '0.4.2',
+33 silly addNameRange     '0.4.3',
+33 silly addNameRange     '0.4.4',
+33 silly addNameRange     '0.4.5',
+33 silly addNameRange     '1.0.0-rc1',
+33 silly addNameRange     '1.0.0',
+33 silly addNameRange     '1.0.1',
+33 silly addNameRange     '0.3.13-a',
+33 silly addNameRange     '0.4.0-a',
+33 silly addNameRange     '0.4.0-rc1',
+33 silly addNameRange     '0.4.0-rc2',
+33 silly addNameRange     '0.4.0-rc3',
+33 silly addNameRange     '0.4.0-rc4',
+33 silly addNameRange     '0.4.0-rc5',
+33 silly addNameRange     '0.4.0-rc6',
+33 silly addNameRange     '0.4.0-rc7',
+33 silly addNameRange     '0.4.0-rc8' ] ]
+34 verbose addNamed [ 'grunt', '1.0.1' ]
+35 verbose addNamed [ '1.0.1', '1.0.1' ]
+36 silly lockFile 75468da5-grunt-1-0-1 grunt@1.0.1
+37 verbose lock grunt@1.0.1 /Users/andrewtibbs/.npm/75468da5-grunt-1-0-1.lock
+38 silly lockFile 1a9b2b0c--npmjs-org-grunt-grunt-1-0-1-tgz https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz
+39 verbose lock https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz /Users/andrewtibbs/.npm/1a9b2b0c--npmjs-org-grunt-grunt-1-0-1-tgz.lock
+40 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz',
+40 verbose addRemoteTarball   'e8778764e944b18f32bb0f10b9078475c9dfb56b' ]
+41 info retry fetch attempt 1 at 14:57:00
+42 verbose fetch to= /var/folders/hd/5t7x344d58j1ccxkng581j8c0000gn/T/npm-55660-0JGGYn0G/registry.npmjs.org/grunt/-/grunt-1.0.1.tgz
+43 http GET https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz
+44 http 200 https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz
+45 silly lockFile 1a9b2b0c--npmjs-org-grunt-grunt-1-0-1-tgz https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz
+46 silly lockFile 1a9b2b0c--npmjs-org-grunt-grunt-1-0-1-tgz https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz
+47 silly lockFile 75468da5-grunt-1-0-1 grunt@1.0.1
+48 silly lockFile 75468da5-grunt-1-0-1 grunt@1.0.1
+49 silly lockFile 55f1ff24-grunt grunt@
+50 silly lockFile 55f1ff24-grunt grunt@
+51 error Error: EACCES, mkdir '/Users/andrewtibbs/.npm/grunt/1.0.1'
+51 error  { [Error: EACCES, mkdir '/Users/andrewtibbs/.npm/grunt/1.0.1']
+51 error   errno: 3,
+51 error   code: 'EACCES',
+51 error   path: '/Users/andrewtibbs/.npm/grunt/1.0.1',
+51 error   parent: 'cycleoregon' }
+52 error Please try running this command again as root/Administrator.
+53 error System Darwin 15.6.0
+54 error command "node" "/usr/local/bin/npm" "install" "grunt" "--save-dev"
+55 error cwd /Users/andrewtibbs/Sites/cycleoregon
+56 error node -v v0.10.35
+57 error npm -v 1.4.28
+58 error path /Users/andrewtibbs/.npm/grunt/1.0.1
+59 error code EACCES
+60 error errno 3
+61 error stack Error: EACCES, mkdir '/Users/andrewtibbs/.npm/grunt/1.0.1'
+62 verbose exit [ 3, true ]
